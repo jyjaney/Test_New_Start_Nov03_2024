@@ -17,6 +17,7 @@ sentence = "A good sheep!"
 #print(reverse_words(sentence))
 
 
+
 def are_anagrams(str1, str2):
     new_str1 = sorted(str1.replace(' ', '').lower())
     new_str2 = sorted(str2.replace(' ', '').lower())
